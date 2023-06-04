@@ -1,0 +1,33 @@
+div.box{
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+body{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+.green{
+    height: 75px;
+    width: 55px;
+    background-color: rgb(34, 245, 34);
+    margin-top: 20px;
+}
+.blue{
+    height: 75px;
+    width: 50px;
+    background-color: rgb(97, 221, 249);
+    margin-top: 20px;
+}
+.red{
+    height: 75px;
+    width: 50px;
+    background-color: red;
+    margin-top: 20px;
+}
+.black{
+    height: 75px;
+    width: 50px;
+    background-color: black;
+    margin-top: 20px;
+}
